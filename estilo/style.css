@@ -71,8 +71,6 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px black;
     background-attachment: fixed;
-    position: relative;
-    width: 100vw;
 }
 
 section.imagem > p {
@@ -86,13 +84,17 @@ section#img01 {
     background-image: url(../imagens/background001.jpg);
     background-position: right center;
     background-size: cover;
-    position: absolute;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
 }
 
 section#img02 {
     background-image: url(../imagens/background002.jpg);
+    background-position: right center;
     background-size: cover;
-    position: absolute;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 footer {
